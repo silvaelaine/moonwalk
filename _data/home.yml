@@ -5,58 +5,66 @@ navbar_entries:
   - title: blog
     url: blog
 
-  - title: linkedin
-    url: https://www.linkedin.com/in/euelainesilva/
+  - title: website
+    url: https://www.abhinav.co
 
 project_entries:
-  - title: Análise Exploratória dos dados do Airbnb do Rio de Janeiro.
-    url: https://github.com/silvaelaine/eda-airbnb-RJ
-    desc: O objetivo da análise é retirar insights a fim de resolver problemas de negócio usando os dados para responder perguntas. 
-											Os dados foram coletados através do portal Inside Airbnb e o arquivo utilizado foi o de nome 'listings.csv' que refere-se a informações resumidas e métricas para listagens no Rio do Janeiro, como é descrito no próprio portal. 
-											Também foi usado o arquivo 'neighbourhoods.geojson', com geolocalização para criação de um mapa interativo.
+  - title: Project 1
+    url: overview-post
+    desc: This is an example project, configured in _data/home.yml
 
-  - title: Análise dos Dados da PRF - Acidentes de trânsito
-    url: https://github.com/silvaelaine/data-analysis-PRF
-    desc: O objetivo desse projeto é analisar os dados a fim de obter insights sobre os acidentes e responder perguntas sobre 
-										dados abertos obtidos pelo Plano de Dados Abertos da PRF. 
+  - title: Project 2
+    url: overview-post
+    desc: Projects are shown in card layout
 
-  - title: Previsão de aprovação de vistos de trabalho dos EUA
+  - title: Project 3
     url: overview-post
     desc: You can control visibility from _config.yml file
 
   - title: Project 4
-    url: https://github.com/silvaelaine/vistos-eua-ML-olympiad
-    desc: Este projeto foi resultado da Olimpíada de Machine Learning do Google que ocorreu na Uninter usando a Metodologia Crisp-DM. O desafio tinha como objetivo prever a aprovação de vistos de trabalho dos EUA. 
-												Foi atigindo um f1-score de 0.80 usando o algoritmo XGBoost e GridSearch para otimizar hiperparâmetros.
-    #highlight: WIP
+    url: overview-post
+    desc: This project uses highlight markup, configured in _data/home.yml
+    highlight: WIP
 
-  - title: Analisando dados de vendas com DB Browser (SQLite)
-    url: https://medium.com/@lainetnr/analisando-dados-de-vendas-com-db-browser-sqlite-77f1e4631d9a
-    desc: >Ao analisar dados de vendas usando SQL, as empresas podem obter insights sobre seu desempenho de vendas,
-												identificar áreas para melhoria e tomar decisões baseadas em dados para aumentar a receita e a lucratividade.
-    #highlight: WIP
+  - title: Project 5
+    url: overview-post
+    desc: Moonwalk also has horizontal list (used in header and footer)
+    highlight: WIP
 
-  - title: Modelo de propensão - Marketing bancário
-    url: https://github.com/silvaelaine/propensity_model
-    desc: O modelo de propensão é o modelo que tenta prever o cliente que tem intenção ou probabilidade de comprar aquele produto específico. Os produtos variam de fundo de investimento, produto de seguro, empréstimo, etc. 
-												Insights e previsões do comportamento do cliente são os principais benefícios de um modelo de propensão para as empresas. A análise ajuda a selecionar o cliente-alvo com alto potencial para adquirir o produto, para que a equipe de vendas possa despender tempo e esforço para convencer as pessoas interessadas. Além disso, o modelo pode ser atualizado do modelo de 
-												propensão para um modelo de elevação (uplifting modeling) se você precisar de um cliente-alvo mais eficaz.
+  - title: Project 6
+    url: overview-post
+    desc: It also has a scalable vertical list (in case you need it)
 
-#old_project_entries:
- # - title: Soopr
- #   url: https://www.soopr.co
- #   desc: Delight your readers - add beautiful share and like buttons easily to your websites 
- #   highlight: NEW
+old_project_entries:
+  - title: Soopr
+    url: https://www.soopr.co
+    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
+    highlight: NEW
 
+  - title: Cookie
+    url: https://github.com/abhinavs/cookie
+    desc: An open source landing website with supporting pages and integrated blog
+
+  - title: Moonwalk
+    url: https://github.com/abhinavs/moonwalk
+    desc: A fast and minimalist Jekyll blog theme with clean dark mode
+
+  - title: Humangous
+    url: https://www.humangous.co
+    desc: The better people know you, the better they collaborate
 
 footer_entries:
+  - title: abhinav's homepage
+    url: https://www.abhinav.co
 
-  - title: medium
-    url: https://medium.com/@lainetnr
+  - title: twitter
+    url: https://twitter.com/abhinav
 
   - title: github
-    url: https://github.com/silvaelaine
+    url: https://github.com/abhinavs
 
+  - title: feed
+    url: feed.xml
 
 misc_entries:
   - title: this is an example vertical list
@@ -78,6 +86,8 @@ misc_entries:
       - title: on Github
         url: https://github.com/abhinavs/moonwalk
 
+      - title: originally built for abhinav's homepage
+        url: https://www.abhinav.co
 
       - title: this list is scalable and can be nested
         url: false
@@ -87,5 +97,3 @@ misc_entries:
 
           - title: it is easy to use, see _data/home.yml to see how to configure it.
             url: false
-
-
