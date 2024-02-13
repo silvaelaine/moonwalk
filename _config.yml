@@ -1,17 +1,14 @@
 title: portfólio
 author: Elaine Silva
-url: https://silvaelaine.github.io/moonwalk/ # root address of the site
-description: > # description of the site (multiple lines allowed)
-  Graduanda em Engenharia de Software (atualmente no 5º período do curso), estudante autodidata de Ciência de Dados e apaixonada pela
-  área de Processamento de Linguagem Natural (PLN). Tenho experiência de +1.5 anos em linguagem Python, 1 ano de SQL e com bibliotecas de análise e visualização 
-  de dados como: Pandas, Numpy, Matplotlib, Seaborn e bibliotecas de Machine Learning/Deep Learning como SkLearn e Pytorch/Tensorflow.
+url: https://silvaelaine.github.io/about/ # root address of the site
+description: false
 
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
 
 
-#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
+
 remote_theme: abhinavs/moonwalk
 
 theme_config:
@@ -33,9 +30,7 @@ theme_config:
   # options for "home" page
   home:
     title_projects: Portfolio
-    title_misc_list: Details
     title_blog: Blog
-    title_old_projects: Old Projects
 
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
