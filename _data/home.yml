@@ -54,18 +54,17 @@ old_project_entries:
     desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
+  - title: medium
+    url: https://medium.com/@lainetnr
 
-  - title: twitter
-    url: https://twitter.com/abhinav
+  - title: linkedin
+    url: https://www.linkedin.com/in/euelainesilva/
 
   - title: github
-    url: https://github.com/abhinavs
-
-  - title: feed
-    url: feed.xml
-
+    url: https://github.com/silvaelaine
+    
+  - title: cd~ to homepage
+    url: 
 misc_entries:
   - title: this is an example vertical list
     url: false
