@@ -1,55 +1,51 @@
 navbar_entries:
-  - title: about
+  - title: .sobre mim
     url: about
 
-  - title: blog
+  - title: .blog
     url: https://medium.com/@lainetnr
 
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+  - title: Análise dos Dados da PRF - Acidentes de trânsito.
+    url: https://github.com/silvaelaine/data-analysis-PRF
+    desc: O objetivo desse projeto é analisar os dados a fim de obter insights sobre os acidentes e responder perguntas usando visualização de Dados.
+    highlight: Limpeza EDA
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: Modelo de propensão - Marketing bancário
+    url: https://github.com/silvaelaine/propensity_model
+    desc: A análise ajuda a selecionar o cliente-alvo com alto potencial para adquirir o produto, para que a equipe de vendas possa despender tempo e esforço para convencer as pessoas interessadas. 
+    highlight: Limpeza EDA Pré-processamento Feature Engineering Modelagem Ajuste de hiperparâmetros
+    
+  - title: Previsão de aprovação de vistos de trabalho dos EUA
+    url: https://github.com/silvaelaine/vistos-eua-ML-olympiad
+    desc: Este projeto foi resultado da Olimpíada de Machine Learning do Google que ocorreu na Uninter usando a Metodologia Crisp-DM. O desafio tinha como objetivo prever a aprovação de vistos de trabalho dos EUA. Foi atigindo um f1-score de 0.80 usando o algoritmo XGBoost e GridSearch para otimizar hiperparâmetros.
+    highlight: Feature Engineering XGBoost Ajuste de hiperparâmetros
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+  - title: Analisando dados de vendas com DB Browser
+    url: https://github.com/silvaelaine/sales-sqlite-dbbrowser
+    desc: Ao analisar dados de vendas usando SQL, as empresas podem obter insights sobre seu desempenho de vendas, identificar áreas para melhoria e tomar decisões baseadas em dados para aumentar a receita e a lucratividade.
+    highlight: SQLite
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
 
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+#old_project_entries:
+#  - title: Soopr
+#    url: https://www.soopr.co
+#    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
+#    highlight: NEW
 
-old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
+#  - title: Cookie
+#    url: https://github.com/abhinavs/cookie
+#    desc: An open source landing website with supporting pages and integrated blog
 
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
+#  - title: Moonwalk
+#    url: https://github.com/abhinavs/moonwalk
+#    desc: A fast and minimalist Jekyll blog theme with clean dark mode
 
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
-
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+#  - title: Humangous
+#    url: https://www.humangous.co
+#    desc: The better people know you, the better they collaborate
 
 footer_entries:
   - title: medium
@@ -63,6 +59,7 @@ footer_entries:
     
   - title: cd~ to homepage
     url: https://silvaelaine.github.io/moonwalk/
+
 misc_entries:
   - title: this is an example vertical list
     url: false
