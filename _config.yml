@@ -1,7 +1,7 @@
 title: portfólio
 author: Elaine Silva
 url: https://silvaelaine.github.io/about/ # root address of the site
-description: seja bem vindo ao meu portfólio pessoas de projetos. para ter acesso aos meus artigos do Medium clique em blog.
+description: Seja bem vindo ao meu portfólio pessoal de projetos. Para ter acesso aos meus artigos do Medium clique em .blog e para saber mais sobre mim acesse .sobre mim! 
 
 permalink: /:slug
 
@@ -29,8 +29,8 @@ theme_config:
   show_tags: true # show tags in a blog posts
   # options for "home" page
   home:
-    title_projects: Portfolio
-    title_blog: Blog
+    title_projects: portfolio
+    title_blog: blog
 
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
