@@ -29,7 +29,7 @@ theme_config:
   show_tags: true # show tags in a blog posts
   # options for "home" page
   home:
-    title_projects: portfolio
+    title_projects: meus projetos
     title_blog: blog
 
 soopr:
